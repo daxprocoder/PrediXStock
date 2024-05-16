@@ -71,14 +71,13 @@ export const Contact = () => {
             <div>
               <div>
                 <img src={contactemail} alt="contactemail" />
-                <p>readriches@gmail.com</p>
+                <p>predixstock@gmail.com</p>
               </div>
               <div>
                 <img src={contactphone} alt="contactphoneno" />
                 <span>
 
-                <p>+91-7017588100</p>
-                <p style={{display:"block"}}>+91-7340283616</p>
+                <p>+91-9983892425</p>
                 </span>
               </div>
               {/* <div>
@@ -90,11 +89,11 @@ export const Contact = () => {
           <div className='follow'>
             <h3>follow</h3>
             <div>
-              <a href="https://www.facebook.com/readriches?mibextid=rS40aB7S9Ucbxw6v" target="_blank" rel="noreferrer">
+              <a href="" target="_blank" rel="noreferrer">
               <img src={contactfacebook} alt="contactfacebook" />
               </a>
               
-              <a href="https://x.com/ReadRiches?t=RwnqDBwEFI5s4Twnx1KSMw&s=09" target="_blank" rel="noreferrer"
+              <a href="" target="_blank" rel="noreferrer"
               style={{
                 borderRadius: "50%",
                 backgroundColor: "#d8d8d8",
@@ -105,11 +104,11 @@ export const Contact = () => {
               <img src={contacttwitter} alt="contacttwitter" width="20" />
               </a>
 
-              <a href="https://www.instagram.com/readriches?igsh=MXY3ZnBmOWRjMWMwZA" target="_blank" rel="noreferrer">
+              <a href="" target="_blank" rel="noreferrer">
               <img src={contactinstagram} alt="contactinstagram" />
               </a>
 
-              <a href="https://www.linkedin.com/company/read-riches/" target="_blank" rel="noreferrer"
+              <a href="" target="_blank" rel="noreferrer"
               style={{
                 borderRadius: "50%",
                 backgroundColor: "#d8d8d8",

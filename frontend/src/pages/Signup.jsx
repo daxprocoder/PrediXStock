@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import loginsvg from '../assets/images/logo.png';
+import predixstock from '../assets/images/predixstock.png';
 import '../assets/styles/signup.css';
 
 export const Signup = () => {
@@ -59,7 +59,7 @@ export const Signup = () => {
   return (
     <main className='signupmain'>
       <div className='signupleftimg'>
-        <img src={loginsvg} alt="login" />
+        <img src={predixstock} alt="login" />
       </div>
       <div className='signupright'>
         <h1>Registration</h1>

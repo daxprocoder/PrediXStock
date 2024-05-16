@@ -5,8 +5,8 @@ import community2 from '../assets/images/logo.png'
 import community3 from '../assets/images/logo.png'
 import community4 from '../assets/images/logo.png'
 import community5 from '../assets/images/logo.png'
-import bull from '../assets/images/logo.png'
-import binocular from '../assets/images/logo.png'
+import bull from '../assets/images/bull.jpg'
+import graph from '../assets/images/graph.jpeg'
 import eclipse from '../assets/images/logo.png'
 import communityarrow from '../assets/images/logo.png'
 import simply from '../assets/images/logo.png'
@@ -60,7 +60,7 @@ export const About = () => {
 
             <section id='sectiona'>
               <div className='read'>
-                Read
+                Predix
               </div>
               {/* <h1 style={{ fontSize: "3.5rem", margintop: "10rem", textAlign: "center" }}>About Us</h1> */}
               <div className='sectionadiv' style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
@@ -117,7 +117,7 @@ export const About = () => {
 
             <section id='sectionb' style={{ display: "flex" }}>
               <div className='binocular'>
-                <img src={binocular} alt='binocular' />
+                <img src={graph} alt='binocular' />
               </div>
               <div className='bruh' style={{ position: "relative" }}>
    
