@@ -1,0 +1,233 @@
+/* Contact.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,400;8..144,700;8..144,800&display=swap');
+
+
+.contact-container {
+  position: relative;
+  top: 0rem;
+  width: 723px;
+  height: 627px;
+  padding: 4rem;
+  padding-top: 2rem;
+  /* border-radius: 8px; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+  color: #fff;
+  background-color: #1E6E76;
+  display: flex;
+  z-index: 1;
+}
+
+.contact-container1 {
+  display: flex;
+  flex-direction: column;
+  /* row-gap: 3rem; */
+  justify-content: space-evenly;
+  z-index: 1;
+}
+
+.contact-container2 {
+  position: relative;
+  top: 14rem;
+  left: -14rem;
+}
+
+.contactusbold {
+  width: 477px;
+  height: 131px;
+}
+
+.contactusbold h2 {
+  font-family: Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.contactusbold p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.005em;
+  text-align: left;
+
+}
+
+.get_in_touch {
+  background-color: #fff;
+  position: relative;
+  top: 7rem;
+  left: -9rem;
+  padding: 4rem;
+  padding-top: 2rem;
+  width: 667px;
+  z-index: 1;
+}
+
+.get_in_touch_back {
+  position: absolute;
+  width: 529px;
+  height: 634px;
+  border: 2px solid rgba(180, 231, 237, 1);
+  z-index: 0;
+  right: 14rem;
+  top: 15rem;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.information>div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.information>div div {
+  display: flex;
+  column-gap: 1rem;
+}
+
+.follow>h3 {
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.follow>div {
+  display: flex;
+  column-gap: 0.5rem;
+}
+
+.get_in_touch form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.get_in_touch form>p {
+  /* width: 225px; */
+  /* height: 28px; */
+  position: relative;
+  left: -8.5rem;
+  font-family: Roboto Serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(28, 101, 109, 1);
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.get_in_touch input,
+.get_in_touch textarea {
+  /* margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;*/
+  background: rgba(29, 28, 42, 0.11);
+  border: none;
+  resize: none;
+  width: 522px;
+  height: 50px;
+  padding: 10px 25px 10px 25px;
+  /* gap: 10px; */
+}
+
+.get_in_touch input:focus,
+.get_in_touch textarea:focus {
+  /* outline: none; */
+  outline: 2px solid #1E6E76;
+}
+
+
+.get_in_touch textarea {
+  height: 200px;
+  /* margin-bottom: 15px; */
+}
+
+.contactmain button {
+  color: #fff;
+  border: none;
+  outline: 2px solid transparent;
+  cursor: pointer;
+  background:#1C656D;
+  width: 516px;
+  height: 48px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 10px;
+  gap: 10px;
+  font-family: Roboto Serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0px;
+  transition: all 0.3s ease;
+}
+
+.get_in_touch button:hover {
+  outline: 2px solid #1C656D;
+  background-color: #fff;
+  color: #1C656D;
+}
+
+.contactmain {
+  display: flex;
+  justify-content: center;
+  height: 118vh;
+  align-items: center;
+  position: relative;
+  /* top: 4rem; */
+  background: rgba(27, 55, 59, 1);
+}
+
+.contact_line{
+  /* position: absolute;
+  top: 0;
+  right: 4rem; */
+  width: 3px;
+  height: 501px;
+  background-color: white;
+  border-width: 13px;
+}
+
+.contact_circle{
+  /* position: absolute;
+  top: 0; 
+  right: 4rem;*/
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  border-width: 13px;
+}
+
+.contact_line_circle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0rem;
+  right: 4rem;
+}
+
+.information img {
+  width: 20px;
+  height: 20px;
+}
+
+.follow img {
+  width: 20px;
+  height: 20px;
+}

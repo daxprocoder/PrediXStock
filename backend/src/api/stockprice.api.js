@@ -19,7 +19,7 @@ const options = {
 async function fetchData() {
     try {
         const response = await axios.request(options);
-        console.log(response.data);
+        console.log(response);
     } catch (error) {
         console.error(error);
     }

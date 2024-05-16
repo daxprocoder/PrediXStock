@@ -27,7 +27,7 @@ const userSchema = new Schema({
     },
     avatar: {
         type: String, // Cloudinary URL or any server as per your requirement which generates the URL.
-        required: true,
+        required: false,
     },
     password: {
         type: String,
