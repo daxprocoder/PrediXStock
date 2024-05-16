@@ -16,7 +16,7 @@ export const Footer = () => {
         `}>
                 {/* logo */}
                 <div className='footer'>
-                    <img src={logo} alt="logo" />
+                    <img src="https://cdn.discordapp.com/attachments/1221106229330579487/1240710112403001374/Screenshot_2024-05-12_155207-removebg-preview.png?ex=66478cd6&is=66463b56&hm=6f16c16c9d0650572722a638891e9264a50ac2be2e1ff665fa77c7304d73f5b4&" alt="logo" />
                     {/* links */}
                     <ul>
                         <li> <Link to="/">Home</Link> </li>
@@ -36,7 +36,7 @@ export const Footer = () => {
                 <hr />
                 <div style={{display:"flex",justifyContent:"space-between"}}>
 
-                    <p>&copy; 2021 All Rights Reserved</p>
+                    <p>&copy; 2024 All Rights Reserved</p>
                     {/* terms of use and privacy policy */}
                     <div className="terms">
                         <Link to="/terms">Terms of Use</Link>

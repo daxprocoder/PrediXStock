@@ -1,33 +1,37 @@
-footer{
-    margin-block:20px;
-    /* background-color: #f5f5f5;
+footer {
+    margin-block: 20px;
+    background-color: #333;
+    /* Dark background color */
     border-radius: 20px;
-    padding: 20px; */
+    padding: 20px;
+    color: #fff;
+    /* Light text color */
 }
 
-.nofooter{
+.nofooter {
     display: none;
 }
 
-.footer{
+.footer {
     /* border: 1px solid #000; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-block: 10px;
-    position: sticky;
-    top: 0;
     z-index: 1;
-    /* background: white; */
+    background: #333;
+    /* Dark background color */
+    color: #fff;
+    /* Light text color */
     /* overflow: hidden; */
 }
 
-.footer img{
-    width: 50px;
+.footer img {
+    width: 150px;
     height: 50px;
 }
 
-.footer ul{
+.footer ul {
     width: fit-content;
     display: flex;
     justify-content: space-between;
@@ -36,56 +40,65 @@ footer{
     margin-right: 25rem;
 }
 
-.footer ul li{
+.footer ul li {
     /* border: 1px solid #000; */
     margin-inline: 20px;
 }
 
-
-
-.footer ul li a{
+.footer ul li a {
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
-    color: #000;
+    color: #fff;
+    /* Light text color */
     transition: background-color 0.1s, color 0.1s;
 }
 
-.footer ul li a:hover{
-    background-color: #000;
-    color: #fff;
-}
-.footer .btn{
-    padding: 10px 20px;
-    border-radius: 5px;
+.footer ul li a:hover {
     background-color: #fff;
     color: #000;
+}
+
+.footer .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #000;
+    /* Dark button color */
+    color: #fff;
+    /* Light text color */
     cursor: pointer;
     text-wrap: nowrap;
-    outline: 2px solid #000;
+    outline: 2px solid #fff;
+    /* Light outline */
     font-weight: bold;
     border: none;
     transition: background-color 0.1s, color 0.1s, outline 0.1s;
 }
 
-.btn:hover{
-    background-color: #000;
-    color: #fff;
-    outline: 2px solid #fff;
+.btn:hover {
+    background-color: #fff;
+    /* Light background color */
+    color: #000;
+    /* Dark text color */
+    outline: 2px solid #000;
+    /* Dark outline */
 }
 
-footer hr{
+footer hr {
     width: 100%;
     border: 1px solid #7c7a7a;
     margin-block: 10px;
 }
 
-footer a{
+footer a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
+    /* Light text color */
 }
 
-.terms a{
+.terms a {
     margin-left: 10px;
+    color: #fff;
+    /* Light text color */
     /* overflow: hidden; */
 }

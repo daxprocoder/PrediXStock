@@ -81,18 +81,18 @@ export const About = () => {
                   </div>
                 </div>
                 <div className='crazynestingsectiona' >
-                  {/* <h2 style={{ fontSize: "2rem", marginBottom: "1rem" }}>What is Read Riches?</h2> */}
+                 
                   <div className='aboutusheading'>
                     <span>
                       {/* about the firm */}
                     </span>
                     <p>
-                      what is read riches?
+                      what is predixstock?
                     </p>
                   </div>
                   <div className='paragraph_abt'>
                     <p>
-                      Read Riches is changing how everyone understands big businesses. We are making it super easy for everyone to see and understand what a company is all about. We're like wizards turning complicated stuff into fun pictures and stories so that everyone can get it, like turning a puzzle into a cool picture.
+                      Introducing our Stock Monitoring Platform, your go-to tool for staying informed and in control of your investments. Our platform offers a sleek and intuitive interface designed to empower users to effortlessly track their stock portfolio in real-time. With our platform, users can easily monitor the performance of their stocks, receive instant updates on market fluctuations, and access comprehensive analytics to make informed decisions. Whether you're a seasoned investor or just starting out, our user-friendly dashboard provides valuable insights and data visualizations to help you stay ahead of the curve. Key features include customizable watchlists, personalized alerts for price changes and news updates, and interactive charts for in-depth analysis. Whether you're on your desktop or mobile device, our platform ensures seamless access anytime, anywhere. Take charge of your financial future with our Stock Monitoring Platform and experience the convenience and confidence of having your investments at your fingertips.
                       {/* We're like the leaders in making corporate jargon easy-peasy. */}
                     </p>
                     <p style={{
@@ -104,9 +104,7 @@ export const About = () => {
                       </u> */}
                     </p>
                   </div>
-                  {/* <p>
-                    Our goal is crystal clear – we want to be the front-runners in making business analysis simple and fun. We're using our creative vibes to give you the full picture so you not only get what's going on with a company but actually enjoy it. It's like magic, turning all the boring numbers into something rad!
-                  </p> */}
+                  
                 </div>
                 <div className='crazystuffbg'></div>
                 {/* <span className='aboutimgbef'></span> */}
@@ -133,8 +131,9 @@ export const About = () => {
                 </div>
                 {/* <h2>Our Vision</h2> */}
                 <p>
-                  We're Read Riches, and our vision is like painting a rad future where checking out company stuff isn't a snooze-fest but a crazy journey. Our main deal? Keep it simple, get wildly creative, and make it feel super exclusive.
-                  Picture a masterpiece where every piece of info tells a dope story—that's us weaving insight into every nook. Our vision? To be the architects of an era where digging into a company isn't a chore but a mind-blowing revelation. And guess what? We're bringing that vision to life with our platform.
+                  We're predixstock, and our vision is to transform exploring the stock market from a mundane task into an exciting adventure. Our approach is straightforward: keep it simple, get wildly creative, and make it feel exclusive.
+
+                  Imagine a masterpiece where every piece of market information tells a captivating story—that's us, weaving insight into every detail. Our vision is to be the pioneers of an era where diving into the stock market isn't a chore but a mind-blowing revelation. And we're bringing that vision to life with our platform.
 
                 </p>
               </div>
@@ -187,7 +186,7 @@ export const About = () => {
                         Unveiling Our In-House Algorithm
                       </span>
                       <span className='pickpara'>
-                        At Read Riches, our company selection process is powered by a proprietary algorithm developed in-house. This algorithm serves as our compass in the vast landscape of stocks, helping us pinpoint companies that fall into distinct categories.
+                        At predixstock, our company selection process is powered by a proprietary algorithm developed in-house. This algorithm serves as our compass in the vast landscape of stocks, helping us pinpoint companies that fall into distinct categories.
                       </span>
                     </span>
                   </div>
@@ -445,7 +444,7 @@ export const About = () => {
                         Ambit Capital, IIM-C
                       </p>
                       <p className='communitypara'>
-                        "I've gotta give a big shoutout to Read Riches – their reports are like my secret weapon for understanding companies.
+                        "I've gotta give a big shoutout to predixstock – their reports are like my secret weapon for understanding companies.
                         The way they dive into industry stuff with solid assumptions in DCF and valuation models is on another level.
                         It's like having a cheat code for decoding the business world – super helpful!".
                       </p>
@@ -479,7 +478,7 @@ export const About = () => {
                       </p>
                       <p className='communitypara'>
 
-                        "Using Read Riches is a game-changer for me. Their reports break down industry trends and challenges in a way that just makes sense.
+                        "Using predixstock is a game-changer for me. Their reports break down industry trends and challenges in a way that just makes sense.
                         The clear insights, backed by DCF and valuation models, are like a roadmap for understanding a company's potential.
                         Seriously, they make the complex stuff feel like a breeze!"
                       </p>
@@ -512,7 +511,7 @@ export const About = () => {
                         Ambit Capital, IIM-C
                       </p>
                       <p className='communitypara'>
-                        "Read Riches is my go-to for company insights, no doubt. Their reports are like a friend explaining the business scene – simple, yet spot-on.
+                        "predixstock is my go-to for company insights, no doubt. Their reports are like a friend explaining the business scene – simple, yet spot-on.
                         The industry analysis, combined with clear insights and smart assumptions in DCF and valuation models, is pure gold. They just get it!".
                       </p>
                       {/* <div className='rating'>

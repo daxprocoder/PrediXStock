@@ -20,7 +20,9 @@ export const Home = () => {
                     >Get Started</button>
                 </div>
                 <div style={{display: "flex", flexWrap: "wrap"}}>
-                    <img className='right' src={logo} alt="logo" />
+                    <img className='right' src="https://www.investopedia.com/thmb/hATOUQ_Iq5v5CgGKLhrj22v1aXM=/2120x1414/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1300495462-e66753342f304f45a9215505352b596a.jpg" alt="logo" width="400px" height="300pc" />
+
+
                 </div>
             </main>
             <section className="assets">

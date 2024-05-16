@@ -1,18 +1,30 @@
-.homemain{
+.homemain {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* height: 100vh; */
-    background-color: #f5f5f5;
+    background: linear-gradient(180deg, #001F3F, #000000);
+    /* Dark blue to black gradient */
     border-radius: 20px;
     position: relative;
     margin-top: 90px;
+    color:white;
     padding: 20px;
     width: fit-content;
 }
 
-.homemain >*{
-    /* border: 1px solid #000; */
+.assets {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(180deg, #001F3F, #000000);
+    /* Dark blue to black gradient */
+    border-radius: 20px;
+    position: relative;
+    margin-block: 40px;
+    padding: 50px;
+    color: #fff;
+    row-gap: 20px;
 }
 
 .homemain .left{
@@ -29,7 +41,7 @@
 .homemain .left h1{
     font-size: 4rem;
     font-weight: 700;
-    color: #333;
+    color: #ededed;
 }
 
 .homemain .left p{
