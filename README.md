@@ -1,4 +1,4 @@
-# PrediStock
+# PrediXStock
 
 PrediStock is a stock information platform that provides users with valuable insights into stock market trends and data.
 
@@ -13,21 +13,21 @@ PrediStock is a stock information platform that provides users with valuable ins
 
 ## Description
 
-PrediStock is a platform designed to offer users comprehensive stock market information. It integrates various tools and technologies to provide real-time updates, analysis, and predictions on stock market trends. This README provides information on how to install PrediStock and its dependencies.
+PrediXStock is a platform designed to offer users comprehensive stock market information. It integrates various tools and technologies to provide real-time updates, analysis, and predictions on stock market trends. This README provides information on how to install PrediXStock and its dependencies.
 
 ## Installation
 
-To install PrediStock, follow these steps:
+To install PrediXStock, follow these steps:
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/daxprocoder/predistock.git
+   git clone https://github.com/daxprocoder/predixstock.git
 
 
 2. Navigate to the project directory:
 
-cd predistock
+cd predixstock
 
 
 3. Install the necessary dependencies:
@@ -37,7 +37,7 @@ npm install
 
 ## Backend Dependencies
 
-PrediStock relies on the following backend dependencies:
+PrediXStock relies on the following backend dependencies:
 
 - axios@^1.6.8
 - bcrypt@^5.1.1
@@ -57,7 +57,7 @@ Please ensure that you create a `public` directory inside a `temp` folder for te
 
 ## Frontend Dependencies
 
-PrediStock also requires the following frontend dependencies:
+PrediCStock also requires the following frontend dependencies:
 
 - @emotion/react@^11.11.4
 - @emotion/styled@^11.11.5
@@ -76,12 +76,12 @@ Make sure to install these dependencies using npm.
 
 ## Usage
 
-To run PrediStock, use the following command:
+To run PrediXStock, use the following command:
 
 npm start
 
 
-This will start the server and make the application available at http://localhost:3000.
+This will start the server and make the application available at http://localhost:8000 and frontend on http://localhost:8001
 
 ## Contributing
 
